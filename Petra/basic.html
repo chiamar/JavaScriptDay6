@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic Exercise</title>
+
+</head>
+
+<body>
+  <p id="msg"></p>
+
+  <script>
+    var sandwiches = `{"sandwich": "hamburger", "calories": "260"}`;
+    var fries = `{"fries_size": "Large French Fries", "calories": "570"}`;
+
+    sandwiches = JSON.parse(sandwiches);
+    fries = JSON.parse(fries);
+
+    var msg = `My favorite sandwich is a ${sandwiches.sandwich} which has approximately ${sandwiches.calories} calories, along with it I enjoy eating ${fries.fries_size} which have about ${fries.calories} calories.`;
+
+    document.getElementById("msg").innerHTML = msg;
+
+  </script>
+
+</body>
+
+</html>
