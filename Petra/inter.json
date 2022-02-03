@@ -1,0 +1,82 @@
+var employees = `[
+  {
+    "id": "01",
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john.doe@acme.inc",
+    "jobTitle": "CEO",
+    "salary": "110,000"
+  },
+  {
+    "id": "02",
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "email": "jane.doe@acme.inc",
+    "jobTitle": "Administrative Assistant",
+    "salary": "29,000"
+  },
+  {
+    "id": "03",
+    "firstName": "Max",
+    "lastName": "Mustermann",
+    "email": "max.mustermann@acme.inc",
+    "jobTitle": "Account Executive",
+    "salary": "41,500"
+  },
+  {
+    "id": "04",
+    "firstName": "Maria",
+    "lastName": "Musterfrau",
+    "email": "maria.musterfrau@acme.inc",
+    "jobTitle": "Operations Manager",
+    "salary": "55,500"
+  },
+  {
+    "id": "05",
+    "firstName": "Rob",
+    "lastName": "Smith",
+    "email": "rob.smith@acme.inc",
+    "jobTitle": "Project Manager",
+    "salary": "53,500"
+  },
+  {
+    "id": "06",
+    "firstName": "Jill",
+    "lastName": "Smith",
+    "email": "jill.smith@acme.inc",
+    "jobTitle": "Human Resources",
+    "salary": "50,000"
+  },
+  {
+    "id": "07",
+    "firstName": "Will",
+    "lastName": "Grant",
+    "email": "will.grant@acme.inc",
+    "jobTitle": "Executive Assistant",
+    "salary": "39,000"
+  },
+  {
+    "id": "08",
+    "firstName": "Tom",
+    "lastName": "Hart",
+    "email": "tom.hart@acme.inc",
+    "jobTitle": "Network Administrator",
+    "salary": "38,500"
+  },
+  {
+    "id": "09",
+    "firstName": "Bob",
+    "lastName": "Parr",
+    "email": "bob.parr@acme.inc",
+    "jobTitle": "Risk Manager",
+    "salary": "53,000"
+  },
+  {
+    "id": "10",
+    "firstName": "Helen",
+    "lastName": "Parr",
+    "email": "helen.parr@acme.inc",
+    "jobTitle": "Quality Assurance",
+    "salary": "54,000"
+  }
+]`

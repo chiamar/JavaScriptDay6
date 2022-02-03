@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intermediate Exercise</title>
+
+</head>
+
+<body>
+  <p id="result"></p>
+
+  <script src="inter.json"></script>
+  <script>
+    employees = JSON.parse(employees);
+    var result = document.getElementById("result");
+
+    console.table(employees)
+
+    // for (let val of employees) {
+      // result.innerHTML += val.id + val.firstName + val.lastName + val.email + val.jobTitle + val.salary
+    // }
+
+  </script>
+
+</body>
+
+</html>
