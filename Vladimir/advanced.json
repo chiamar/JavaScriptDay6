@@ -1,0 +1,29 @@
+var books = `[{"Title": "Harry Potter and Philosopher Stone",
+    "Author" : "J.K.Rowling",
+    "Read": "Add to basket" ,
+    "Image": "first.jpeg"
+},{"Title": "Harry Potter and Chamber of secrets",
+    "Author" : "J.K.Rowling",
+    "Read": "Add to basket" ,
+    "Image": "second.jpeg"
+},{"Title": "Harry Potter and Prisoner of Azkaban",
+    "Author" : "J.K.Rowling",
+    "Read": "Add to basket" ,
+    "Image": "third.jpeg"
+},{"Title": "Harry Potter and the Goblet of Fire",
+    "Author" : "J.K.Rowling",
+    "Read": "Add to basket" ,
+    "Image": "fourth.jpeg"
+},{"Title": "Harry Potter and the Order of the Phoenix",
+    "Author" : "J.K.Rowling",
+    "Read": "Add to basket" ,
+    "Image": "fifth.jpeg"
+},{"Title": "Harry Potter and the Halfblood Prince",
+    "Author" : "J.K.Rowling",
+    "Read": "Add to basket" ,
+    "Image": "sixth.jpeg"
+},{"Title": "Harry Potter and the Deathly Hallows",
+    "Author" : "J.K.Rowling",
+    "Read": "Add to basket" ,
+    "Image": "seventh.jpeg"
+}]`

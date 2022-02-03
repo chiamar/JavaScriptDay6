@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>JSON meets Javascript</h1>
+
+    <br>
+
+    <div id="result"></div>
+
+    <script>
+        // Create object1
+
+        let object1 = {
+
+            "language": "English",
+
+            "title": "Javascript for Mummies"
+
+        };
+
+
+        // Print object1
+
+        document.getElementById('result').innerHTML = "<h3>Language = " + object1.language + "</h3><h3>Title = " + object1.title + "</h3>";
+
+
+        // Create object2
+
+        let object2 = {
+
+            "language": "German",
+
+            "title": "Javascript für Angeber"
+
+        };
+
+        //create an <hr> between both objects
+
+        document.getElementById('result').innerHTML += "<hr/>";
+
+
+        // Print object2
+
+        document.getElementById('result').innerHTML += "<h3>Language = " + object2.language + "</h3><h3>Title = " + object2.title + "</h3>";
+    </script>
+
+</body>
+
+
+</html>
