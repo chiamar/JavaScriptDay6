@@ -1,11 +1,11 @@
-var employees = `[
+var employees = `[ // red var does not metter yet
   {
     "id": "01",
     "firstName": "John",
     "lastName": "Doe",
     "email": "john.doe@acme.inc",
     "jobTitle": "CEO",
-    "salary": "110,000"
+    "salary": "110,000" // here can nnot be comma
   },
   {
     "id": "02",

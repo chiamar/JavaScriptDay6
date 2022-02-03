@@ -1,0 +1,64 @@
+var importData = JSON.parse(data);
+console.table(importData);
+
+
+for (let value of importData) {
+    document.getElementById("result").innerHTML += `${value.FirstName}`
+}
+
+// let data = `[{"UniqueID": "9313",
+//     "FirstName" : "Vladimir",
+//     "LastName": "Petras",
+//     "Emailaddress": "da@da@.da",
+//     "Age": 20,
+//     "JobTitle": "Boss",
+//     "Salary": "1 000 000 000 000 $",
+// },{
+//     "FirstName" : "Marcel",
+//     "LastName": "Fazekas",
+//     "Emailaddress": "fa@fa@.fa",
+//     "JobTitle": "Gardener",
+//     "Salary": "1 000 000 $",
+// },{
+//     "FirstName" : "Dezider",
+//     "LastName": "Honivietor",
+//     "Emailaddress": "fa@fa@.fa",
+//     "JobTitle": "Head of finance ",
+//     "Salary": "1 000 000 000 $",
+// },{
+//     "FirstName" : "Gucci",
+//     "LastName": "Mahoni",
+//     "Emailaddress": "fa@fa@.fa",
+//     "JobTitle": "Personal Manager",
+//     "Salary": "1 000 000  $",
+// },{
+//     "FirstName" : "Maria",
+//     "LastName": "Oserma",
+//     "Emailaddress": "sa@sa@.sa",
+//     "JobTitle": "Head of IT",
+//     "Salary": "1 000 000 000  $",
+// },{
+//     "FirstName" : "Perla",
+//     "LastName": "Orla",
+//     "Emailaddress": "aa@aa.aa",
+//     "JobTitle": "Secretary",
+//     "Salary": "1 000 000 000  $",
+// },{
+//     "FirstName" : "Gejza",
+//     "LastName": "Dusik",
+//     "Emailaddress": "aa@asa.aa",
+//     "JobTitle": "Podrztaska",
+//     "Salary": "1 000 000 000 000 000 000  $",
+// },{
+//     "FirstName" : "Miloslav",
+//     "LastName": "Buggatti",
+//     "Emailaddress": "aa@asa.aa",
+//     "JobTitle": "Driver",
+//     "Salary": "1 000 000 000 000 000 000  $",
+// },{
+//     "FirstName" : "Karol",
+//     "LastName": "Drzgros",
+//     "Emailaddress": "aa@asa.aa",
+//     "JobTitle": "Finanzmeister",
+//     "Salary": "1 000 000 000 000 000 000  $",
+// }]`
